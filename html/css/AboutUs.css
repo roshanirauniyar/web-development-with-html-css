@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+
+
+
+body {
+    line-height: 1.5;
+    font-family: serif;
+}
+
+h1 {
+    font-family: serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: serif;
+    background-color: rgb(231, 225, 225);
+}
+
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+
+.container {
+    margin: auto;
+    position: relative;
+    left: 200px;
+    display: flex;
+    justify-content: space-around;
+    display: inline-block;
+    padding: 10px;
+    bottom: 50px;
+}
+
+
+
+/* create a section for the CV/portfolio content */
+.cv-content {
+    margin: 0px 0 0 0;
+    padding: 50px;
+    background-image: url(/images/blue-abstract-gradient-wave-wallpaper.jpg);
+    background-size: cover;
+}
+
+
+
+/* create a flex container for the tables */
+.tables-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* adjust the width of each table to fit within the flex container */
+table {
+    width: 48%;
+    margin-right: 2%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+/* remove the margin from the last table in the container */
+.tables-container table:last-child {
+    margin-right: 0;
+}
+
+td {
+    padding: 12px;
+}
+
+.cv-content {
+    padding: 72px 50px 50px;
+}
+
+
+@media screen and (max-width: 600px) {
+    table {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+/* logo stlye   */
+
+.container img {
+    height: 20vh;
+    width: 10%;
+    padding: 10px;
+    display: inline-block;
+    /* float: left; */
+    margin-top: 10px;
+    clear: both;
+}
+
+
+#h3 {
+    color: #ffffff;
+    padding: 10px;
+    display: inline;
+    color: #2b0eed;
+}
+
+
+/* background  */
+
+.title {
+    display: inline-block;
+    padding: 6px 10px;
+    position: relative;
+    /* left: 209px;
+    top: 40px; */
+    left: 379px;
+    top: 70px;
+}
+
+.image {
+    position: relative;
+    left: 758px;
+    top: -40px;
+}
+
+
+/* Remove Bullet point  */
+
+ul {
+    list-style-type: none;
+}
+
+
+.comment {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-left: 700px;
+}
+
+#comment {
+    width: 600px;
+    margin-left: 450px;
+}
+
+.cmnt{
+    background-color: #c0dae7;
+}
+
+
+.normal {
+    font-family: serif;
+    width: 100px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    color: white;
+    background: rgb(133, 129, 129);
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+}
+
+.submitBtn:hover {
+    cursor: pointer;
+    scale: 1.2;
+}
+
+.feedback-form{
+    margin-left: 650px;
+}
+
+
